@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+
+    .nav-item {
+        @apply inline-block p-4 transition ease-in duration-150 text-indigo-100;
+    }
+
+    .nav-item:hover {
+        @apply bg-indigo-100 text-gray-900 drop-shadow-xl;
+    }
+
+    .btn {
+        @apply inline-block px-2 py-1 rounded-bl-md rounded-tr-md shadow-sm;
+    }
+    .btn:hover {
+        @apply transition ease-in duration-150 transform scale-110;
+    }
+
+        .box:hover {
+        @apply transition-transform ease-in duration-150 transform scale-x-110 scale-y-110;
+    }
+
+    .box:focus {
+        @apply sm:w-40 md:w-72 lg:w-96;
+    }
+@tailwind utilities;
