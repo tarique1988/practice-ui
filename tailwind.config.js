@@ -1,11 +1,13 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
+  purge: {
+    content: ["./**/*.html"]
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+	darkMode: false, // or 'media' or 'class'
+	theme: {
+		extend: {}
+	},
+	variants: {
+		extend: {}
+	},
+	plugins: []
+};
